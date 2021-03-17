@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+ <kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+  <Snippet maxLines="0"></Snippet>
+  <name>Punkter</name>
+
+  <description>
+   <![CDATA[
+Database: GeoGIS2020-Juelsminde<br>Export: 10-04-2019 11:53:05<br>GeoGIS2020 Version: 20.03.02<br>www.geogis2020.ramboll.dk
+   ]]>
+  </description>
+
+  <Style id="StandardStyle">
+   <LineStyle>
+    <color>FF0000FF</color>
+    <colorMode>normal</colorMode>
+    <width> 0.1</width>
+   </LineStyle>
+   <PolyStyle>
+    <color>00000000</color>
+    <colorMode>normal</colorMode>
+    <fill>1</fill>
+    <outline>0</outline>
+   </PolyStyle>
+   <LabelStyle>
+    <color>FF0ABFFF</color>
+    <colorMode>normal</colorMode>
+    <scale> 0.7</scale>
+   </LabelStyle>
+   <IconStyle>
+    <color>FF0ABFFF</color>
+    <colorMode>normal</colorMode>
+    <scale> 0.7</scale>
+    <Icon>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</Icon>
+   </IconStyle>
+   <BalloonStyle>
+    <text><![CDATA[
+       <b><font color="#CC0000" size="+3">$[name]</font></b><br><br>
+       <table border=1 bordercolor=blue cellspacing=1 style="color: blue;font-family:Verdana,Tahoma,Arial,Helvetica;font-size:8pt">
+        <tr><td>CompanyId</td><td>$[CompanyId]</td>
+        <tr><td>Company</td><td>$[Company]</td>
+        <tr><td>ProjectNo</td><td>$[ProjectNo]</td>
+        <tr><td>Title</td><td>$[Title]</td>
+        <tr><td>RegionNo</td><td>$[RegionNo]</td>
+        <tr><td>ProjectMunicipalityNo</td><td>$[ProjectMunicipalityNo]</td>
+        <tr><td>ProjectId</td><td>$[ProjectId]</td>
+        <tr><td>PointId</td><td>$[PointId]</td>
+        <tr><td>PointNo</td><td>$[PointNo]</td>
+        <tr><td>sPointId</td><td>$[sPointId]</td>
+        <tr><td>Sequence</td><td>$[Sequence]</td>
+        <tr><td>PublicNo</td><td>$[PublicNo]</td>
+        <tr><td>Synonym</td><td>$[Synonym]</td>
+        <tr><td>Description1</td><td>$[Description1]</td>
+        <tr><td>Description2</td><td>$[Description2]</td>
+        <tr><td>Description3</td><td>$[Description3]</td>
+        <tr><td>PointType</td><td>$[PointType]</td>
+        <tr><td>DataOwner</td><td>$[DataOwner]</td>
+        <tr><td>ContractorId</td><td>$[ContractorId]</td>
+        <tr><td>Contractor</td><td>$[Contractor]</td>
+        <tr><td>ContractorInitials</td><td>$[ContractorInitials]</td>
+        <tr><td>GeoCompany</td><td>$[GeoCompany]</td>
+        <tr><td>GeoInitials</td><td>$[GeoInitials]</td>
+        <tr><td>PhaseId</td><td>$[PhaseId]</td>
+        <tr><td>DateStart</td><td>$[DateStart]</td>
+        <tr><td>DateEnd</td><td>$[DateEnd]</td>
+        <tr><td>DateClose</td><td>$[DateClose]</td>
+        <tr><td>AbandonDate</td><td>$[AbandonDate]</td>
+        <tr><td>AbandonCause</td><td>$[AbandonCause]</td>
+        <tr><td>AbandonContractorId</td><td>$[AbandonContractorId]</td>
+        <tr><td>Purpose</td><td>$[Purpose]</td>
+        <tr><td>Method</td><td>$[Method]</td>
+        <tr><td>Use</td><td>$[Use]</td>
+        <tr><td>Projection1</td><td>$[Projection1]</td>
+        <tr><td>X1</td><td>$[X1]</td>
+        <tr><td>Y1</td><td>$[Y1]</td>
+        <tr><td>CoordinateMethod1</td><td>$[CoordinateMethod1]</td>
+        <tr><td>CoordinateSource1</td><td>$[CoordinateSource1]</td>
+        <tr><td>CoordinateQuality1</td><td>$[CoordinateQuality1]</td>
+        <tr><td>VerticalRefId1</td><td>$[VerticalRefId1]</td>
+        <tr><td>Z1</td><td>$[Z1]</td>
+        <tr><td>ElevationMethod1</td><td>$[ElevationMethod1]</td>
+        <tr><td>Projection2</td><td>$[Projection2]</td>
+        <tr><td>X2</td><td>$[X2]</td>
+        <tr><td>Y2</td><td>$[Y2]</td>
+        <tr><td>CoordinateMethod2</td><td>$[CoordinateMethod2]</td>
+        <tr><td>CoordinateSource2</td><td>$[CoordinateSource2]</td>
+        <tr><td>CoordinateQuality2</td><td>$[CoordinateQuality2]</td>
+        <tr><td>VerticalRefId2</td><td>$[VerticalRefId2]</td>
+        <tr><td>Z2</td><td>$[Z2]</td>
+        <tr><td>ElevationMethod2</td><td>$[ElevationMethod2]</td>
+        <tr><td>XUTM32EUREF89</td><td>$[XUTM32EUREF89]</td>
+        <tr><td>YUTM32EUREF89</td><td>$[YUTM32EUREF89]</td>
+        <tr><td>ZDVR90</td><td>$[ZDVR90]</td>
+        <tr><td>XLocal</td><td>$[XLocal]</td>
+        <tr><td>YLocal</td><td>$[YLocal]</td>
+        <tr><td>ZLocal</td><td>$[ZLocal]</td>
+        <tr><td>Top</td><td>$[Top]</td>
+        <tr><td>Bottom</td><td>$[Bottom]</td>
+        <tr><td>AlignmentId</td><td>$[AlignmentId]</td>
+        <tr><td>Station</td><td>$[Station]</td>
+        <tr><td>Offset</td><td>$[Offset]</td>
+        <tr><td>MunicipalityNo</td><td>$[MunicipalityNo]</td>
+        <tr><td>Address</td><td>$[Address]</td>
+        <tr><td>Town</td><td>$[Town]</td>
+        <tr><td>Postalcode</td><td>$[Postalcode]</td>
+        <tr><td>AreaId</td><td>$[AreaId]</td>
+        <tr><td>Marking</td><td>$[Marking]</td>
+        <tr><td>Rig</td><td>$[Rig]</td>
+        <tr><td>AngleX</td><td>$[AngleX]</td>
+        <tr><td>AngleZ</td><td>$[AngleZ]</td>
+        <tr><td>Enclosure</td><td>$[Enclosure]</td>
+        <tr><td>ExecutedBy</td><td>$[ExecutedBy]</td>
+        <tr><td>ExecutedDate</td><td>$[ExecutedDate]</td>
+        <tr><td>CheckedBy</td><td>$[CheckedBy]</td>
+        <tr><td>CheckedDate</td><td>$[CheckedDate]</td>
+        <tr><td>ApprovedBy</td><td>$[ApprovedBy]</td>
+        <tr><td>ApprovedDate</td><td>$[ApprovedDate]</td>
+        <tr><td>PlanEnclosure</td><td>$[PlanEnclosure]</td>
+        <tr><td>Owner</td><td>$[Owner]</td>
+        <tr><td>Status</td><td>$[Status]</td>
+        <tr><td>WaterSounding</td><td>$[WaterSounding]</td>
+        <tr><td>WaterDepth</td><td>$[WaterDepth]</td>
+        <tr><td>LockGeology</td><td>$[LockGeology]</td>
+        <tr><td>Active</td><td>$[Active]</td>
+        <tr><td>LinkId</td><td>$[LinkId]</td>
+        <tr><td>WKT</td><td>$[WKT]</td>
+        <tr><td>Geom</td><td>$[Geom]</td>
+        <tr><td>JupiterId</td><td>$[JupiterId]</td>
+        <tr><td>FRef</td><td>$[FRef]</td>
+        <tr><td>FRefCom</td><td>$[FRefCom]</td>
+        <tr><td>FRefJob</td><td>$[FRefJob]</td>
+        <tr><td>FRefBor</td><td>$[FRefBor]</td>
+        <tr><td>FRefBor2</td><td>$[FRefBor2]</td>
+        <tr><td>FRefDB</td><td>$[FRefDB]</td>
+        <tr><td>Diameter</td><td>$[Diameter]</td>
+        <tr><td>Latitude</td><td>$[Latitude]</td>
+        <tr><td>Longitude</td><td>$[Longitude]</td>
+        <tr><td>Quality</td><td>$[Quality]</td>
+        <tr><td>InsertUserId</td><td>$[InsertUserId]</td>
+        <tr><td>InsertDate</td><td>$[InsertDate]</td>
+        <tr><td>UpdateUserId</td><td>$[UpdateUserId]</td>
+        <tr><td>UpdateDate</td><td>$[UpdateDate]</td>
+        <tr><td>AbandonMaterialId</td><td>$[AbandonMaterialId]</td>
+        <tr><td>VerticalPrecision1</td><td>$[VerticalPrecision1]</td>
+        <tr><td>VerticalDate1</td><td>$[VerticalDate1]</td>
+        <tr><td>VerticalPrecision2</td><td>$[VerticalPrecision2]</td>
+        <tr><td>VerticalDate2</td><td>$[VerticalDate2]</td>
+        <tr><td>AngleY</td><td>$[AngleY]</td>
+        <tr><td>StopCode</td><td>$[StopCode]</td>
+        <tr><td>ZDTM</td><td>$[ZDTM]</td>
+        <tr><td>Locked</td><td>$[Locked]</td>
+        <tr><td>sPointNo</td><td>$[sPointNo]</td>
+        <tr><td>ZTop</td><td>$[ZTop]</td>
+        <tr><td>ZBottom</td><td>$[ZBottom]</td>
+        <tr><td>WaterLevel</td><td>$[WaterLevel]</td>
+        <tr><td>Setup</td><td>$[Setup]</td>
+        <tr><td>Z1Diff</td><td>$[Z1Diff]</td>
+        <tr><td>Samples</td><td>$[Samples]</td>
+        <tr><td>Strata</td><td>$[Strata]</td>
+        <tr><td>Cptpush</td><td>$[Cptpush]</td>
+        <tr><td>AnalysisSamples</td><td>$[AnalysisSamples]</td>
+        <tr><td>Exceedslimits</td><td>$[Exceedslimits]</td>
+        <tr><td>ExceedsamberValues</td><td>$[ExceedsamberValues]</td>
+        <tr><td>Waterlevels</td><td>$[Waterlevels]</td>
+       </table>
+       <br>
+
+    ]]></text>
+   </BalloonStyle>
+  </Style>
+
+  <Style id="LabelStyle">
+   <LineStyle>
+    <color>FF0ABFFF</color>
+    <colorMode>normal</colorMode>
+    <width>1</width>
+   </LineStyle>
+   <PolyStyle>
+    <color>00000000</color>
+    <colorMode>normal</colorMode>
+    <fill>1</fill>
+    <outline>1</outline>
+   </PolyStyle>
+   <LabelStyle>
+    <color>FF0ABFFF</color>
+    <colorMode>normal</colorMode>
+    <scale> 0.7</scale>
+   </LabelStyle>
+   <IconStyle>
+    <color>FF0ABFFF</color>
+    <colorMode>normal</colorMode>
+    <scale> 0.7</scale>
+    <Icon>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</Icon>
+   </IconStyle>
+   <BalloonStyle>
+    <text><![CDATA[
+       <b><font color="#CC0000" size="+3">$[name]</font></b><br><br>
+       <table border=1 bordercolor=blue cellspacing=1 style="color: blue;font-family:Verdana,Tahoma,Arial,Helvetica;font-size:8pt">
+        <tr><td>CompanyId</td><td>$[CompanyId]</td>
+        <tr><td>Company</td><td>$[Company]</td>
+        <tr><td>ProjectNo</td><td>$[ProjectNo]</td>
+        <tr><td>Title</td><td>$[Title]</td>
+        <tr><td>RegionNo</td><td>$[RegionNo]</td>
+        <tr><td>ProjectMunicipalityNo</td><td>$[ProjectMunicipalityNo]</td>
+        <tr><td>ProjectId</td><td>$[ProjectId]</td>
+        <tr><td>PointId</td><td>$[PointId]</td>
+        <tr><td>PointNo</td><td>$[PointNo]</td>
+        <tr><td>sPointId</td><td>$[sPointId]</td>
+        <tr><td>Sequence</td><td>$[Sequence]</td>
+        <tr><td>PublicNo</td><td>$[PublicNo]</td>
+        <tr><td>Synonym</td><td>$[Synonym]</td>
+        <tr><td>Description1</td><td>$[Description1]</td>
+        <tr><td>Description2</td><td>$[Description2]</td>
+        <tr><td>Description3</td><td>$[Description3]</td>
+        <tr><td>PointType</td><td>$[PointType]</td>
+        <tr><td>DataOwner</td><td>$[DataOwner]</td>
+        <tr><td>ContractorId</td><td>$[ContractorId]</td>
+        <tr><td>Contractor</td><td>$[Contractor]</td>
+        <tr><td>ContractorInitials</td><td>$[ContractorInitials]</td>
+        <tr><td>GeoCompany</td><td>$[GeoCompany]</td>
+        <tr><td>GeoInitials</td><td>$[GeoInitials]</td>
+        <tr><td>PhaseId</td><td>$[PhaseId]</td>
+        <tr><td>DateStart</td><td>$[DateStart]</td>
+        <tr><td>DateEnd</td><td>$[DateEnd]</td>
+        <tr><td>DateClose</td><td>$[DateClose]</td>
+        <tr><td>AbandonDate</td><td>$[AbandonDate]</td>
+        <tr><td>AbandonCause</td><td>$[AbandonCause]</td>
+        <tr><td>AbandonContractorId</td><td>$[AbandonContractorId]</td>
+        <tr><td>Purpose</td><td>$[Purpose]</td>
+        <tr><td>Method</td><td>$[Method]</td>
+        <tr><td>Use</td><td>$[Use]</td>
+        <tr><td>Projection1</td><td>$[Projection1]</td>
+        <tr><td>X1</td><td>$[X1]</td>
+        <tr><td>Y1</td><td>$[Y1]</td>
+        <tr><td>CoordinateMethod1</td><td>$[CoordinateMethod1]</td>
+        <tr><td>CoordinateSource1</td><td>$[CoordinateSource1]</td>
+        <tr><td>CoordinateQuality1</td><td>$[CoordinateQuality1]</td>
+        <tr><td>VerticalRefId1</td><td>$[VerticalRefId1]</td>
+        <tr><td>Z1</td><td>$[Z1]</td>
+        <tr><td>ElevationMethod1</td><td>$[ElevationMethod1]</td>
+        <tr><td>Projection2</td><td>$[Projection2]</td>
+        <tr><td>X2</td><td>$[X2]</td>
+        <tr><td>Y2</td><td>$[Y2]</td>
+        <tr><td>CoordinateMethod2</td><td>$[CoordinateMethod2]</td>
+        <tr><td>CoordinateSource2</td><td>$[CoordinateSource2]</td>
+        <tr><td>CoordinateQuality2</td><td>$[CoordinateQuality2]</td>
+        <tr><td>VerticalRefId2</td><td>$[VerticalRefId2]</td>
+        <tr><td>Z2</td><td>$[Z2]</td>
+        <tr><td>ElevationMethod2</td><td>$[ElevationMethod2]</td>
+        <tr><td>XUTM32EUREF89</td><td>$[XUTM32EUREF89]</td>
+        <tr><td>YUTM32EUREF89</td><td>$[YUTM32EUREF89]</td>
+        <tr><td>ZDVR90</td><td>$[ZDVR90]</td>
+        <tr><td>XLocal</td><td>$[XLocal]</td>
+        <tr><td>YLocal</td><td>$[YLocal]</td>
+        <tr><td>ZLocal</td><td>$[ZLocal]</td>
+        <tr><td>Top</td><td>$[Top]</td>
+        <tr><td>Bottom</td><td>$[Bottom]</td>
+        <tr><td>AlignmentId</td><td>$[AlignmentId]</td>
+        <tr><td>Station</td><td>$[Station]</td>
+        <tr><td>Offset</td><td>$[Offset]</td>
+        <tr><td>MunicipalityNo</td><td>$[MunicipalityNo]</td>
+        <tr><td>Address</td><td>$[Address]</td>
+        <tr><td>Town</td><td>$[Town]</td>
+        <tr><td>Postalcode</td><td>$[Postalcode]</td>
+        <tr><td>AreaId</td><td>$[AreaId]</td>
+        <tr><td>Marking</td><td>$[Marking]</td>
+        <tr><td>Rig</td><td>$[Rig]</td>
+        <tr><td>AngleX</td><td>$[AngleX]</td>
+        <tr><td>AngleZ</td><td>$[AngleZ]</td>
+        <tr><td>Enclosure</td><td>$[Enclosure]</td>
+        <tr><td>ExecutedBy</td><td>$[ExecutedBy]</td>
+        <tr><td>ExecutedDate</td><td>$[ExecutedDate]</td>
+        <tr><td>CheckedBy</td><td>$[CheckedBy]</td>
+        <tr><td>CheckedDate</td><td>$[CheckedDate]</td>
+        <tr><td>ApprovedBy</td><td>$[ApprovedBy]</td>
+        <tr><td>ApprovedDate</td><td>$[ApprovedDate]</td>
+        <tr><td>PlanEnclosure</td><td>$[PlanEnclosure]</td>
+        <tr><td>Owner</td><td>$[Owner]</td>
+        <tr><td>Status</td><td>$[Status]</td>
+        <tr><td>WaterSounding</td><td>$[WaterSounding]</td>
+        <tr><td>WaterDepth</td><td>$[WaterDepth]</td>
+        <tr><td>LockGeology</td><td>$[LockGeology]</td>
+        <tr><td>Active</td><td>$[Active]</td>
+        <tr><td>LinkId</td><td>$[LinkId]</td>
+        <tr><td>WKT</td><td>$[WKT]</td>
+        <tr><td>Geom</td><td>$[Geom]</td>
+        <tr><td>JupiterId</td><td>$[JupiterId]</td>
+        <tr><td>FRef</td><td>$[FRef]</td>
+        <tr><td>FRefCom</td><td>$[FRefCom]</td>
+        <tr><td>FRefJob</td><td>$[FRefJob]</td>
+        <tr><td>FRefBor</td><td>$[FRefBor]</td>
+        <tr><td>FRefBor2</td><td>$[FRefBor2]</td>
+        <tr><td>FRefDB</td><td>$[FRefDB]</td>
+        <tr><td>Diameter</td><td>$[Diameter]</td>
+        <tr><td>Latitude</td><td>$[Latitude]</td>
+        <tr><td>Longitude</td><td>$[Longitude]</td>
+        <tr><td>Quality</td><td>$[Quality]</td>
+        <tr><td>InsertUserId</td><td>$[InsertUserId]</td>
+        <tr><td>InsertDate</td><td>$[InsertDate]</td>
+        <tr><td>UpdateUserId</td><td>$[UpdateUserId]</td>
+        <tr><td>UpdateDate</td><td>$[UpdateDate]</td>
+        <tr><td>AbandonMaterialId</td><td>$[AbandonMaterialId]</td>
+        <tr><td>VerticalPrecision1</td><td>$[VerticalPrecision1]</td>
+        <tr><td>VerticalDate1</td><td>$[VerticalDate1]</td>
+        <tr><td>VerticalPrecision2</td><td>$[VerticalPrecision2]</td>
+        <tr><td>VerticalDate2</td><td>$[VerticalDate2]</td>
+        <tr><td>AngleY</td><td>$[AngleY]</td>
+        <tr><td>StopCode</td><td>$[StopCode]</td>
+        <tr><td>ZDTM</td><td>$[ZDTM]</td>
+        <tr><td>Locked</td><td>$[Locked]</td>
+        <tr><td>sPointNo</td><td>$[sPointNo]</td>
+        <tr><td>ZTop</td><td>$[ZTop]</td>
+        <tr><td>ZBottom</td><td>$[ZBottom]</td>
+        <tr><td>WaterLevel</td><td>$[WaterLevel]</td>
+        <tr><td>Setup</td><td>$[Setup]</td>
+        <tr><td>Z1Diff</td><td>$[Z1Diff]</td>
+        <tr><td>Samples</td><td>$[Samples]</td>
+        <tr><td>Strata</td><td>$[Strata]</td>
+        <tr><td>Cptpush</td><td>$[Cptpush]</td>
+        <tr><td>AnalysisSamples</td><td>$[AnalysisSamples]</td>
+        <tr><td>Exceedslimits</td><td>$[Exceedslimits]</td>
+        <tr><td>ExceedsamberValues</td><td>$[ExceedsamberValues]</td>
+        <tr><td>Waterlevels</td><td>$[Waterlevels]</td>
+       </table>
+       <br>
+
+    ]]></text>
+   </BalloonStyle>
+  </Style>
+
+  <Style id="SmallText">
+   <LabelStyle>
+    <color>FF000000</color>
+    <colorMode>normal</colorMode>
+    <scale>0.6</scale>
+   </LabelStyle>
+   <IconStyle>
+    <color>ff0000ff</color>
+    <scale>0.01</scale>
+    <Icon>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</Icon>
+   </IconStyle>
+  </Style>
+
+  <Style id="NormalText">
+   <LabelStyle>
+    <color>FF0ABFFF</color>
+    <colorMode>normal</colorMode>
+    <scale>0.8</scale>
+   </LabelStyle>
+   <IconStyle>
+    <color>ff0000ff</color>
+   <scale>0.01</scale>
+    <Icon>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</Icon>
+   </IconStyle>
+  </Style>
+
+  <Style id="LargeText">
+   <LabelStyle>
+    <color>FF0ABFFF</color>
+    <colorMode>normal</colorMode>
+    <scale>1.2</scale>
+   </LabelStyle>
+   <IconStyle>
+    <color>ff0000ff</color>
+    <scale>0.01</scale>
+    <Icon>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</Icon>
+   </IconStyle>
+  </Style>
+
+  <Style id="BlackAndWhite">
+   <LineStyle>
+    <color>FF000000</color>
+    <width>0</width>
+   </LineStyle>
+   <PolyStyle>
+    <color>FF000000</color>
+    <colorMode>normal</colorMode>
+    <fill>1</fill>
+    <outline>0</outline>
+   </PolyStyle>
+   <LabelStyle>
+    <color>FFFFFFFF</color>
+    <colorMode>normal</colorMode>
+    <scale>0.6</scale>
+   </LabelStyle>
+   <IconStyle>
+    <color>ff0000ff</color>
+    <scale>0.01</scale>
+    <Icon>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</Icon>
+   </IconStyle>
+  </Style>
+
+  <Style id="HideChildren">
+   <ListStyle>
+    <listItemType>checkHideChildren</listItemType>
+   </ListStyle>
+  </Style>
+
+  <Folder>
+
+   <name>Legende</name>
+   <open>0</open>
+
+   <Placemark>
+    <name>Punkter</name>
+    <visibility>0</visibility>
+    <Snippet maxLines="0"></Snippet>
+    <styleUrl>#StandardStyle</styleUrl>
+    <Point>
+    </Point>
+   </Placemark>
+  </Folder>
+
+  <Folder>
+
+   <name>Data</name>
+   <open>0</open>
+
+   <Placemark>
+    <name>684-CPT_NS-002-1</name>
+    <Snippet maxLines="0"></Snippet>
+      <ExtendedData>
+        <Data name="ProjectNo"><value>102684</value></Data>
+        <Data name="Title"><value>Baltic Pipe</value></Data>
+        <Data name="PointNo"><value>684-CPT_NS-002-1</value></Data>
+        <Data name="Description3"><value>Very low sleeve response to 1.94m. Max thrust reached at 2.58m test terminated.</value></Data>
+        <Data name="PointType"><value>B</value></Data>
+        <Data name="DateStart"><value>2017-09-03</value></Data>
+        <Data name="Projection1"><value>25833</value></Data>
+        <Data name="X1"><value>349140,44</value></Data>
+        <Data name="Y1"><value>6187755,62</value></Data>
+        <Data name="Z1"><value>38,7</value></Data>
+        <Data name="Bottom"><value>2,58</value></Data>
+        <Data name="Active"><value>X</value></Data>
+        <Data name="LinkId"><value>118246</value></Data>
+        <Data name="InsertDate"><value>2018-09-28 09:54:13</value></Data>
+        <Data name="UpdateDate"><value>2018-09-28 10:47:31</value></Data>
+        <Data name="ZTop"><value>38,7</value></Data>
+        <Data name="ZBottom"><value>36,12</value></Data>
+        <Data name="Setup"><value>UK</value></Data>
+        <Data name="Strata"><value>1</value></Data>
+        <Data name="Cptpush"><value>1</value></Data>
+      </ExtendedData>
+    <styleUrl>#StandardStyle</styleUrl>
+    <Point>
+     <altitudeMode>clampToGround</altitudeMode>
+     <coordinates> 12.5925553693517, 55.8117956952317, 0</coordinates>
+    </Point>
+   </Placemark>
+
+   <Placemark>
+    <name>684-CPT_NS-012-3</name>
+    <Snippet maxLines="0"></Snippet>
+      <ExtendedData>
+        <Data name="ProjectNo"><value>102684</value></Data>
+        <Data name="Title"><value>Baltic Pipe</value></Data>
+        <Data name="PointNo"><value>684-CPT_NS-012-3</value></Data>
+        <Data name="Description3"><value>Max thrust reached at 1.82m test terminated.</value></Data>
+        <Data name="PointType"><value>B</value></Data>
+        <Data name="DateStart"><value>2017-09-03</value></Data>
+        <Data name="Projection1"><value>25833</value></Data>
+        <Data name="X1"><value>387353,38</value></Data>
+        <Data name="Y1"><value>6184445,92</value></Data>
+        <Data name="Z1"><value>30,41</value></Data>
+        <Data name="Bottom"><value>1,82</value></Data>
+        <Data name="Active"><value>X</value></Data>
+        <Data name="LinkId"><value>118259</value></Data>
+        <Data name="InsertDate"><value>2018-09-28 09:54:16</value></Data>
+        <Data name="UpdateDate"><value>2018-09-28 10:52:25</value></Data>
+        <Data name="ZTop"><value>30,41</value></Data>
+        <Data name="ZBottom"><value>28,59</value></Data>
+        <Data name="Setup"><value>UK</value></Data>
+        <Data name="Strata"><value>4</value></Data>
+        <Data name="Cptpush"><value>1</value></Data>
+      </ExtendedData>
+    <styleUrl>#StandardStyle</styleUrl>
+    <Point>
+     <altitudeMode>clampToGround</altitudeMode>
+     <coordinates> 13.2033400048632, 55.7924937631346, 0</coordinates>
+    </Point>
+   </Placemark>
+
+   <Placemark>
+    <name>1</name>
+    <Snippet maxLines="0"></Snippet>
+      <ExtendedData>
+        <Data name="ProjectNo"><value>5582065</value></Data>
+        <Data name="Title"><value>G&#216;TEBORG. Site C3_0172GB_NOB_10</value></Data>
+        <Data name="PointNo"><value>1</value></Data>
+        <Data name="PointType"><value>B</value></Data>
+        <Data name="Contractor"><value>PM</value></Data>
+        <Data name="GeoCompany"><value>NPM</value></Data>
+        <Data name="DateEnd"><value>2002-05-02</value></Data>
+        <Data name="Purpose"><value>GT</value></Data>
+        <Data name="Projection1"><value>25833</value></Data>
+        <Data name="X1"><value>325430</value></Data>
+        <Data name="Y1"><value>6402900</value></Data>
+        <Data name="VerticalRefId1"><value>UK</value></Data>
+        <Data name="Bottom"><value>7</value></Data>
+        <Data name="Enclosure"><value>1</value></Data>
+        <Data name="ExecutedBy"><value>HJT</value></Data>
+        <Data name="Active"><value>X</value></Data>
+        <Data name="LinkId"><value>64943</value></Data>
+        <Data name="FRef"><value>aa9ce307-3315-4660-819a-702a8a23ea19</value></Data>
+        <Data name="FRefCom"><value>AAL</value></Data>
+        <Data name="FRefJob"><value>5582065</value></Data>
+        <Data name="FRefBor"><value>1</value></Data>
+        <Data name="UpdateDate"><value>2018-09-10 15:46:35</value></Data>
+        <Data name="Setup"><value>DK</value></Data>
+        <Data name="Samples"><value>15</value></Data>
+        <Data name="Strata"><value>7</value></Data>
+      </ExtendedData>
+    <styleUrl>#StandardStyle</styleUrl>
+    <Point>
+     <altitudeMode>clampToGround</altitudeMode>
+     <coordinates> 12.0677924174085, 57.7342277359195, 0</coordinates>
+    </Point>
+   </Placemark>
+
+   <Placemark>
+    <name>B1</name>
+    <Snippet maxLines="0"></Snippet>
+      <ExtendedData>
+        <Data name="ProjectNo"><value>67696-120</value></Data>
+        <Data name="Title"><value>   K&#216;BENHAVN S. Bellacentret</value></Data>
+        <Data name="PointNo"><value>B1</value></Data>
+        <Data name="PointType"><value>B</value></Data>
+        <Data name="Contractor"><value>SNO</value></Data>
+        <Data name="GeoCompany"><value>MMY</value></Data>
+        <Data name="DateEnd"><value>2008-10-09</value></Data>
+        <Data name="Purpose"><value>GT</value></Data>
+        <Data name="Method"><value>TU</value></Data>
+        <Data name="Projection1"><value>25833</value></Data>
+        <Data name="X1"><value>347396</value></Data>
+        <Data name="Y1"><value>6168533</value></Data>
+        <Data name="Bottom"><value>8</value></Data>
+        <Data name="Enclosure"><value>1.1</value></Data>
+        <Data name="Active"><value>X</value></Data>
+        <Data name="LinkId"><value>54642</value></Data>
+        <Data name="FRef"><value>982bb99b-c585-4fd4-90fd-131ef47a6a0d</value></Data>
+        <Data name="FRefCom"><value>ODN</value></Data>
+        <Data name="FRefJob"><value>67696-120</value></Data>
+        <Data name="FRefBor"><value>B1</value></Data>
+        <Data name="UpdateDate"><value>2018-09-10 13:14:44</value></Data>
+        <Data name="ZBottom"><value>-8</value></Data>
+        <Data name="Setup"><value>DK</value></Data>
+        <Data name="Samples"><value>17</value></Data>
+        <Data name="Strata"><value>17</value></Data>
+        <Data name="Waterlevels"><value>1</value></Data>
+      </ExtendedData>
+    <styleUrl>#StandardStyle</styleUrl>
+    <Point>
+     <altitudeMode>clampToGround</altitudeMode>
+     <coordinates> 12.5754674462399, 55.6386813879879, 0</coordinates>
+    </Point>
+   </Placemark>
+
+   <Placemark>
+    <name>B01.01</name>
+    <Snippet maxLines="0"></Snippet>
+      <ExtendedData>
+        <Data name="ProjectNo"><value>A122895-001</value></Data>
+        <Data name="Title"><value>&#216;resund 400 kV</value></Data>
+        <Data name="PointNo"><value>B01.01</value></Data>
+        <Data name="Sequence"><value>1</value></Data>
+        <Data name="Description1"><value>Pr&#248;ve 4: Svagt lagdelt</value></Data>
+        <Data name="PointType"><value>BS</value></Data>
+        <Data name="Contractor"><value>Geob. / SNC</value></Data>
+        <Data name="GeoCompany"><value>Geob. / LC</value></Data>
+        <Data name="DateEnd"><value>2019-03-13</value></Data>
+        <Data name="Method"><value>VM</value></Data>
+        <Data name="Projection1"><value>25833</value></Data>
+        <Data name="X1"><value>344619,498</value></Data>
+        <Data name="Y1"><value>6218641,703</value></Data>
+        <Data name="CoordinateMethod1"><value>G</value></Data>
+        <Data name="VerticalRefId1"><value>DVR90</value></Data>
+        <Data name="Z1"><value>31,33</value></Data>
+        <Data name="Bottom"><value>30</value></Data>
+        <Data name="Enclosure"><value>1.1</value></Data>
+        <Data name="ExecutedBy"><value>LNJE</value></Data>
+        <Data name="CheckedBy"><value>SBNI</value></Data>
+        <Data name="ApprovedBy"><value>HRMO</value></Data>
+        <Data name="ApprovedDate"><value>2019-04-05</value></Data>
+        <Data name="Active"><value>X</value></Data>
+        <Data name="LinkId"><value>119375</value></Data>
+        <Data name="InsertDate"><value>2019-03-22 08:11:53</value></Data>
+        <Data name="UpdateDate"><value>2019-04-03 14:17:23</value></Data>
+        <Data name="ZTop"><value>31,33</value></Data>
+        <Data name="ZBottom"><value>1,33</value></Data>
+        <Data name="Setup"><value>DK</value></Data>
+        <Data name="Samples"><value>67</value></Data>
+        <Data name="Strata"><value>26</value></Data>
+        <Data name="Waterlevels"><value>4</value></Data>
+      </ExtendedData>
+    <styleUrl>#StandardStyle</styleUrl>
+    <Point>
+     <altitudeMode>clampToGround</altitudeMode>
+     <coordinates> 12.5026927963847, 56.0876133215403, 0</coordinates>
+    </Point>
+   </Placemark>
+
+   <Placemark>
+    <name>B01.02</name>
+    <Snippet maxLines="0"></Snippet>
+      <ExtendedData>
+        <Data name="ProjectNo"><value>A122895-001</value></Data>
+        <Data name="Title"><value>&#216;resund 400 kV</value></Data>
+        <Data name="PointNo"><value>B01.02</value></Data>
+        <Data name="Sequence"><value>2</value></Data>
+        <Data name="Description1"><value>Pr&#248;ve 3-5: Strandvolddannelse</value></Data>
+        <Data name="Description2"><value>Pr&#248;ve 22-25: Lagdelt. Pr&#248;ve 30 og 31: Svagt lagdelt</value></Data>
+        <Data name="Description3"><value>Pr&#248;ve 22-25 og 28-31: Iss&#248;aflejring</value></Data>
+        <Data name="PointType"><value>BS</value></Data>
+        <Data name="Contractor"><value>Geob. / SNC</value></Data>
+        <Data name="GeoCompany"><value>Geob. / LC</value></Data>
+        <Data name="DateEnd"><value>2019-03-14</value></Data>
+        <Data name="Method"><value>VM</value></Data>
+        <Data name="Projection1"><value>25833</value></Data>
+        <Data name="X1"><value>344666,257</value></Data>
+        <Data name="Y1"><value>6218857,137</value></Data>
+        <Data name="CoordinateMethod1"><value>G</value></Data>
+        <Data name="VerticalRefId1"><value>DVR90</value></Data>
+        <Data name="Z1"><value>4,228</value></Data>
+        <Data name="Bottom"><value>15</value></Data>
+        <Data name="Enclosure"><value>1.2</value></Data>
+        <Data name="ExecutedBy"><value>LNJE</value></Data>
+        <Data name="CheckedBy"><value>SBNI</value></Data>
+        <Data name="ApprovedBy"><value>HRMO</value></Data>
+        <Data name="ApprovedDate"><value>2019-04-05</value></Data>
+        <Data name="Active"><value>X</value></Data>
+        <Data name="LinkId"><value>119376</value></Data>
+        <Data name="InsertDate"><value>2019-03-22 08:12:08</value></Data>
+        <Data name="UpdateDate"><value>2019-04-03 14:17:23</value></Data>
+        <Data name="ZTop"><value>4,228</value></Data>
+        <Data name="ZBottom"><value>-10,772</value></Data>
+        <Data name="Setup"><value>DK</value></Data>
+        <Data name="Samples"><value>35</value></Data>
+        <Data name="Strata"><value>20</value></Data>
+        <Data name="Waterlevels"><value>4</value></Data>
+      </ExtendedData>
+    <styleUrl>#StandardStyle</styleUrl>
+    <Point>
+     <altitudeMode>clampToGround</altitudeMode>
+     <coordinates> 12.5033183524688, 56.0895623070721, 0</coordinates>
+    </Point>
+   </Placemark>
+  </Folder>
+  <LookAt>
+   <longitude> 12.5741943977861</longitude>
+   <latitude> 56.1923957018143</latitude>
+   <altitude>0</altitude>
+   <range> 232605.6</range>
+   <tilt>0</tilt>
+   <heading>0</heading>
+  </LookAt>
+
+  </Document>
+ </kml>
