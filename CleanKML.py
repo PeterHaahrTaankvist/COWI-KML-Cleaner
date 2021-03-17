@@ -40,7 +40,7 @@ if __name__ == "__main__":
         sys.exit()
     if options.outputfile == "":
         print("no output file found. Output file set to " + options.inputfile + "-cleaned.kml")
-        outputfile = options.inputfile + "-cleaned.kml"
+        outputfile = options.inputfile.replace(".kml","") + "-cleaned.kml"
     if not outputfile.endswith(".kml") or not options.inputfile.endswith(".kml"):
         print("Both input and output file must end with .kml")
         sys.exit()
